@@ -1,0 +1,6 @@
+helvetica
+montserrat
+garamond
+Courier
+Courier new
+didot

@@ -1,0 +1,83 @@
+a {
+    text-decoration: none !important;
+    color: none !important;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background */
+.bg-main {
+    background-color: #166974 !important;
+}
+.bg-main2 {
+    background-color: #ff8f30 !important;
+}
+.bg-main3 {
+    background-color: #d77fa1 !important;
+}
+.bg-main4 {
+    background-color: #baabda !important;
+}
+.bg-main4 {
+    background-color: #228491 !important;
+}
+.bg-main5 {
+    background-color: #747474 !important;
+}
+
+/* text color */
+.text-main {
+    color: #166974 !important;
+}
+.text-main2 {
+    color: #ff8f30 !important;
+}
+.text-main3 {
+    color: #d77fa1 !important;
+}
+.text-main4 {
+    color: #baabda !important;
+}
+.text-main5 {
+    color: #747474 !important;
+}
+.border-rd {
+    border-radius: 20px !important;
+}
+/* font family */
+.font-main {
+    font-family: "garamond" !important;
+}
+.font-main2 {
+    font-family: "helvetica" !important;
+}
+.font-main3 {
+    font-family: "montserrat" !important;
+}
+.font-main4 {
+    font-family: "courier new" !important;
+}
+.font-main5 {
+    font-family: "didot" !important;
+}
+.font-main6 {
+    font-family: "courier" !important;
+}
+.jumbotron {
+    background-image: url("img/background.png") !important;
+    font-size: 20px !important;
+}
+
+.card-main {
+    border-radius: 15px;
+    background: #228491;
+    box-shadow: 5px 5px 10px #1e7480, -5px -5px 10px #2694a2;
+}
+.icon {
+    font-size: 40px !important;
+}
+.hero {
+    display: inline;
+}
