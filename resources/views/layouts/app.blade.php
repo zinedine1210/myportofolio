@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/neu.css">
     <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/hover.css">
 
     {{-- Favicon --}}
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
