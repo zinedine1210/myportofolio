@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 a {
     text-decoration: none !important;
     color: none !important;
@@ -46,25 +47,30 @@ a {
 .border-rd {
     border-radius: 20px !important;
 }
+
 /* font family */
-.font-main {
+.font-garamond {
     font-family: "garamond" !important;
 }
-.font-main2 {
+.font-helvetica {
     font-family: "helvetica" !important;
 }
-.font-main3 {
+.font-montserrat {
     font-family: "montserrat" !important;
 }
-.font-main4 {
+.font-couriernew {
     font-family: "courier new" !important;
 }
-.font-main5 {
+.font-didot {
     font-family: "didot" !important;
 }
-.font-main6 {
+.font-courier {
     font-family: "courier" !important;
 }
+.font-poppins {
+    font-family: "poppins", sans-serif !important;
+}
+
 .jumbotron {
     background-image: url("img/background.png") !important;
     font-size: 20px !important;
