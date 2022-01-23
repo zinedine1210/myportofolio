@@ -7,17 +7,24 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link mx-3 fw-bold font-poppins2 hvr-underline-from-center text-main" aria-current="page"
-                    href="#home">Home</a>
+                <a class="nav-link text-center mx-3 fw-bold font-poppins2 hvr-underline-from-center text-main"
+                    aria-current="page" href="#home">Home</a>
             </div>
             <div class="navbar-nav">
-                <a class="nav-link mx-3 fw-bold font-poppins2 hvr-underline-from-center text-main" aria-current="page"
-                    href="#aboutme">About
-                    Me</a>
+                <a class="nav-link text-center mx-3 fw-bold font-poppins2 hvr-underline-from-center text-main"
+                    aria-current="page" href="#aboutme">About</a>
             </div>
             <div class="navbar-nav">
-                <a class="nav-link mx-3 fw-bold font-poppins2 hvr-underline-from-center text-main" aria-current="page"
-                    href="#skills">Skills</a>
+                <a class="nav-link text-center mx-3 fw-bold font-poppins2 hvr-underline-from-center text-main"
+                    aria-current="page" href="#skills">Portofolio</a>
+            </div>
+            <div class="navbar-nav">
+                <a class="nav-link text-center mx-3 fw-bold font-poppins2 hvr-underline-from-center text-main"
+                    aria-current="page" href="#myprojects">My Projects</a>
+            </div>
+            <div class="navbar-nav">
+                <a class="nav-link text-center mx-3 fw-bold font-poppins2 hvr-underline-from-center text-main"
+                    aria-current="page" href="#contact">Contact</a>
             </div>
         </div>
     </div>

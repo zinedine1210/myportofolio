@@ -32,17 +32,17 @@
     {{-- about me --}}
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#166974" fill-opacity="1"
-            d="M0,288L80,256C160,224,320,160,480,154.7C640,149,800,203,960,208C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            d="M0,96L48,122.7C96,149,192,203,288,224C384,245,480,235,576,208C672,181,768,139,864,117.3C960,96,1056,96,1152,112C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
         </path>
     </svg>
     <section class="bg-main" id="aboutme">
         <div class="container-fluid">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5">
-                    {{-- <iframe data-aos="zoom-in"
+                    <iframe data-aos="zoom-in"
                         src="https://my.atlistmaps.com/map/2880df8f-667b-4e9d-87bb-9121c0d5d4c7?share=true"
                         allow="geolocation" width="100%" height="350px" frameborder="0" scrolling="no"
-                        allowfullscreen></iframe> --}}
+                        allowfullscreen></iframe>
                 </div>
                 <div class="col-md-6">
                     <div class="card bg-transparent border-0">
@@ -64,26 +64,26 @@
                             <div class="row justify-content-start align-items-center">
                                 <h5 class="card-title fw-bold text-white font-poppins2 mb-3">My Hobby</h5>
                                 <div class="col-md-3">
-                                    <div class="card-main text-center p-3" data-bs-toggle='tooltip' data-bs-placement="top"
-                                        title="Berenang">
+                                    <div class="card-main mb-3 text-center p-3" data-bs-toggle='tooltip'
+                                        data-bs-placement="top" title="Berenang">
                                         <i class="fas fa-swimmer icon text-white"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
-                                    <div class="card-main text-center p-3" data-bs-toggle='tooltip' data-bs-placement="top"
-                                        title="Mendengarkan Musik">
+                                    <div class="card-main mb-3 text-center p-3" data-bs-toggle='tooltip'
+                                        data-bs-placement="top" title="Mendengarkan Musik">
                                         <i class="fas fa-headphones-alt icon text-white"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
-                                    <div class="card-main text-center p-3" data-bs-toggle='tooltip' data-bs-placement="top"
-                                        title="Futsal">
+                                    <div class="card-main mb-3 text-center p-3" data-bs-toggle='tooltip'
+                                        data-bs-placement="top" title="Futsal">
                                         <i class="fas fa-futbol icon text-white"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
-                                    <div class="card-main text-center p-3" data-bs-toggle='tooltip' data-bs-placement="top"
-                                        title="Bernyanyi">
+                                    <div class="card-main mb-3 text-center p-3" data-bs-toggle='tooltip'
+                                        data-bs-placement="top" title="Bernyanyi">
                                         <i class="fas fa-microphone icon text-white"></i>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@
     <section id="skills" class="pb-5">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#166974" fill-opacity="1"
-                d="M0,64L60,80C120,96,240,128,360,138.7C480,149,600,139,720,122.7C840,107,960,85,1080,106.7C1200,128,1320,192,1380,224L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                d="M0,288L48,256C96,224,192,160,288,117.3C384,75,480,53,576,64C672,75,768,117,864,128C960,139,1056,117,1152,112C1248,107,1344,117,1392,122.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
             </path>
         </svg>
         <h3 class="fw-bold font-poppins my-5 text-center text-main"><span class="text-main2">Main</span>
@@ -120,7 +120,7 @@
                             <h6 class="font-couriernew fw-bold">Bootstrap</h6>
                             <h6 class="fst-italic font-couriernew">90%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 23%;" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -134,7 +134,7 @@
                             <h6 class="font-couriernew fw-bold">PHP</h6>
                             <h6 class="fst-italic font-couriernew">90%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 9%;" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -148,7 +148,7 @@
                             <h6 class="font-couriernew fw-bold">Visual Studio Code</h6>
                             <h6 class="fst-italic font-couriernew">85%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 43%;" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -162,7 +162,7 @@
                             <h6 class="font-couriernew fw-bold">Laravel</h6>
                             <h6 class="fst-italic font-couriernew">85%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 18%;" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -176,7 +176,7 @@
                             <h6 class="font-couriernew fw-bold">HTML & CSS</h6>
                             <h6 class="fst-italic font-couriernew">80%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -190,7 +190,7 @@
                             <h6 class="font-couriernew fw-bold">Node JS</h6>
                             <h6 class="fst-italic font-couriernew">80%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 19%;" aria-valuenow="19" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -204,7 +204,7 @@
                             <h6 class="font-couriernew fw-bold">Javascript</h6>
                             <h6 class="fst-italic font-couriernew">75%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="25"></div>
                         </div>
@@ -218,7 +218,7 @@
                             <h6 class="font-couriernew fw-bold">Python</h6>
                             <h6 class="fst-italic font-couriernew">75%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated"
                                 role="progressbar" style="width: 18%;" aria-valuenow="18" aria-valuemin="0"
                                 aria-valuemax="18"></div>
@@ -234,7 +234,7 @@
                             <h6 class="font-couriernew fw-bold">MYSQL</h6>
                             <h6 class="fst-italic font-couriernew">65%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main2 progress-bar-striped progress-bar-animated"
                                 role="progressbar" style="width: 13%;" aria-valuenow="13" aria-valuemin="0"
                                 aria-valuemax="13"></div>
@@ -263,7 +263,7 @@
                             <h6 class="font-couriernew fw-bold">Editing Video</h6>
                             <h6 class="fst-italic font-couriernew">75%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main4 progress-bar-striped progress-bar-animated"
                                 role="progressbar" style="width: 32%;" aria-valuenow="32" aria-valuemin="0"
                                 aria-valuemax="100"></div>
@@ -290,7 +290,7 @@
                             <h6 class="font-couriernew fw-bold">Microsoft Office</h6>
                             <h6 class="fst-italic font-couriernew">70%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main4 progress-bar-striped progress-bar-animated"
                                 role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
                                 aria-valuemax="100"></div>
@@ -316,7 +316,7 @@
                             <h6 class="font-couriernew fw-bold">Graphic Design</h6>
                             <h6 class="fst-italic font-couriernew">85%</h6>
                         </div>
-                        <div class="progress" style="height: 1px;">
+                        <div class="progress" style="height: 3px;">
                             <div class="progress-bar bg-main4 progress-bar-striped progress-bar-animated"
                                 role="progressbar" style="width: 35%;" aria-valuenow="35%" aria-valuemin="0"
                                 aria-valuemax="100"></div>
@@ -341,30 +341,29 @@
             </div>
         </div>
         <div class="row justify-content-center text-center g-0 mt-5">
-            <div class="col-md-1">
-                <i style="margin-top:10px;" class="fab mx-3 i-jello fa-laravel text-danger display-3 text-center"></i>
+            <div class="col-1">
+                <i class="fab i-jello atas fa-laravel text-danger display-3 text-center"></i>
             </div>
-            <div class="col-md-1">
-                <i style="margin-top:50px;" class="fab mx-3 i-jello fa-bootstrap text-primary display-3 text-center"></i>
+            <div class="col-1">
+                <i class="fab i-jello bawah fa-bootstrap text-primary display-3 text-center"></i>
             </div>
-            <div class="col-md-1">
-                <i style="color: rgb(219, 148, 15); margin-top:10px;"
-                    class="fab mx-3 i-jello fa-html5 display-3 text-center"></i>
+            <div class="col-1">
+                <i style="color: rgb(219, 148, 15);" class="fab i-jello atas fa-html5 display-3 text-center"></i>
             </div>
-            <div class="col-md-1">
-                <i style="margin-top:50px;" class="fab mx-3 i-jello text-primary fa-css3-alt display-3 text-center"></i>
+            <div class="col-1">
+                <i class="fab i-jello bawah text-primary fa-css3-alt display-3 text-center"></i>
             </div>
-            <div class="col-md-1">
-                <i style="margin-top:10px;" class="fab mx-3 i-jello text-success fa-node-js display-3 text-center"></i>
+            <div class="col-1">
+                <i class="fab i-jello atas  text-success fa-node-js display-3 text-center"></i>
             </div>
-            <div class="col-md-1">
-                <i style="margin-top:50px;" class="fab mx-3 i-jello text-info fa-python display-3 text-center"></i>
+            <div class="col-1">
+                <i class="fab i-jello bawah text-info fa-python display-3 text-center"></i>
             </div>
-            <div class="col-md-1">
-                <i style="margin-top:10px;" class="fab mx-3 i-jello text-warning fa-js-square display-3 text-center"></i>
+            <div class="col-1">
+                <i class="fab i-jello atas  text-warning fa-js-square display-3 text-center"></i>
             </div>
-            <div class="col-md-1">
-                <i style="margin-top:50px; color: #166974;" class="fab mx-3 i-jello fa-php display-3 text-center"></i>
+            <div class="col-1">
+                <i style="color: #166974;" class="fab i-jello bawah fa-php display-3 text-center"></i>
             </div>
         </div>
     </section>

@@ -72,7 +72,6 @@ a {
 }
 
 .jumbotron {
-    background-image: url("img/background.png") !important;
     font-size: 20px !important;
 }
 
@@ -86,4 +85,20 @@ a {
 }
 .hero {
     display: inline;
+}
+
+.atas {
+    margin-top: 10px !important;
+}
+.bawah {
+    margin-top: 50px !important;
+}
+
+@media screen and (max-width: 760px) {
+    .bawah {
+        font-size: 30px !important;
+    }
+    .atas {
+        font-size: 30px !important;
+    }
 }
