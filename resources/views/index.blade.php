@@ -12,7 +12,7 @@
                     </h1>
                     <p class="display-6 font-garamond text-main2">Web Programmer</p>
                     <a class="cta" href="index.html">
-                        <span>Let's Talk</span>
+                        <span>Download Resume</span>
                         <svg width="15px" height="10px" viewBox="0 0 13 10">
                             <path d="M1,5 L11,5"></path>
                             <polyline points="8 1 12 5 8 9"></polyline>
@@ -99,7 +99,7 @@
     {{-- akhir about me --}}
 
 
-
+    {{-- skills --}}
     <section id="skills" class="pb-5">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#166974" fill-opacity="1"
@@ -366,5 +366,10 @@
                 <i style="color: #166974;" class="fab i-jello bawah fa-php display-3 text-center"></i>
             </div>
         </div>
+    </section>
+    {{-- akhir skills --}}
+
+    <section id="projects" class="pb-5">
+
     </section>
 @endsection

@@ -54,9 +54,9 @@
     @yield('container')
     {{-- akhir container --}}
 
-    <footer id="footer" class="">
+    <footer id="contact">
         {{-- gelombang --}}
-        {{-- <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg"
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg"
             class="transition duration-300 ease-in-out delay-150">
             <style>
                 .path-0 {
@@ -160,7 +160,77 @@
                 d="M 0,400 C 0,400 0,300 0,300 C 48.404699273093044,323.32672569226975 96.80939854618609,346.65345138453944 140,336 C 183.1906014538139,325.34654861546056 221.16710508834865,280.7129201541119 252,273 C 282.83289491165135,265.2870798458881 306.52218110041946,294.4948679990131 345,310 C 383.47781889958054,325.5051320009869 436.7441705099736,327.3076078498358 480,316 C 523.2558294900264,304.6923921501642 556.5011368596861,280.27470060164364 593,275 C 629.4988631403139,269.72529939835636 669.2512820512819,283.59358974358975 712,294 C 754.7487179487181,304.40641025641025 800.4937349351859,311.3509404239975 841,316 C 881.5062650648141,320.6490595760025 916.773778207975,323.00264856042054 959,318 C 1001.226221792025,312.99735143957946 1050.411152232914,300.63846533432024 1091,302 C 1131.588847767086,303.36153466567976 1163.5816128603692,318.4434901022984 1195,319 C 1226.4183871396308,319.5565098977016 1257.2623963256087,305.58757425648616 1298,300 C 1338.7376036743913,294.41242574351384 1389.3688018371956,297.2062128717569 1440,300 C 1440,300 1440,400 1440,400 Z"
                 stroke="none" stroke-width="0" fill="#166974ff"
                 class="transition-all duration-300 ease-in-out delay-150 path-2"></path>
-        </svg> --}}
+        </svg>
+        <section class="bg-main" id="footer">
+            <h3 class="fw-bold font-poppins py-5 text-center text-white">Contact <span class="text-main2">Me</span>
+            </h3>
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-3">
+                    <form action="/pesan" method="POST">
+                        @csrf
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="nama" autofocus required autocomplete="off"
+                                placeholder="name@example.com">
+                            <label for="nama" class="font-poppins">Nama</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                                required autocomplete="off">
+                            <label for="floatingInput" class="font-poppins">Email</label>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text font-poppins " id="basic-addon1">+62</span>
+                            <input type="number" class="form-control-lg form-control" aria-label="No HP"
+                                aria-describedby="basic-addon1" required autocomplete="off">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px" required autocomplete="off"></textarea>
+                            <label for="floatingTextarea2" class="font-poppins">Pesan Anda</label>
+                        </div>
+                        <button id="btn" class="mt-3" type="submit">
+                            <div class="svg-wrapper-1">
+                                <div class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path fill="currentColor"
+                                            d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <span>Send</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-1 text-center">
+                    <a href="https:/facebook.com/zinedine.ziddan.39" target="_blank"><img src="img/sosmed/facebook.png"
+                            alt="facebook" class="img-fluid sosmed mb-3" width="70"></a>
+                    <a href="https:/instagram.com/zine.zf" target="_blank"><img src="img/sosmed/instagram.png"
+                            alt="facebook" class="img-fluid sosmed mb-3" width="70"></a>
+                    <a href="https:/github.com/zinedine1210" target="_blank"><img src="img/sosmed/github.png"
+                            alt="facebook" class="img-fluid sosmed mb-3" width="70"></a>
+                    <a href="https:/wa.me/6289508781380?text=Hallo" target="_blank"><img src="img/sosmed/whatsapp.png"
+                            alt="facebook" class="img-fluid sosmed mb-3" width="70"></a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <div class="mb-4 bg-white text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#166974" fill-opacity="1"
+                    d="M0,64L0,160L288,160L288,288L576,288L576,192L864,192L864,96L1152,96L1152,192L1440,192L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z">
+                </path>
+            </svg>
+            <img src="img/logo.png" alt="logo" class="img-fluid" width="70">
+            <div class="font-poppins2 text-main">
+                Copyright © 2022 Zinedine Ziddan Fahdlevy. All rights reserved.
+            </div>
+            <small class="font-poppins2 text-main">Made with <i class="fas fa-heart text-danger"></i> and <i
+                    class="fas fa-mug-hot"></i></small>
+        </div>
         {{-- akhir gelombang --}}
     </footer>
 
