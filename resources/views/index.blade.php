@@ -3,7 +3,7 @@
 @section('container')
     {{-- jumbotron --}}
     <div class="container-fluid" id="home">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center pb-5">
             <div class="col-md-6">
                 <div class="jumbotron py-3">
                     <h1 class="display-5 text-main font-couriernew">Hallo,</h1>
@@ -30,14 +30,9 @@
     {{-- main --}}
 
     {{-- about me --}}
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#166974" fill-opacity="1"
-            d="M0,96L48,122.7C96,149,192,203,288,224C384,245,480,235,576,208C672,181,768,139,864,117.3C960,96,1056,96,1152,112C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-    </svg>
-    <section class="bg-main" id="aboutme">
-        <div class="container-fluid">
-            <div class="row justify-content-center align-items-center">
+    <section class="bg-main pt-5" style="border-radius: 50px 50px 0px 0px;" id="aboutme">
+        <div class="container-fluid pt-5">
+            <div class="row justify-content-center align-items-center pb-5">
                 <div class="col-md-5">
                     <iframe data-aos="zoom-in"
                         src="https://my.atlistmaps.com/map/2880df8f-667b-4e9d-87bb-9121c0d5d4c7?share=true"

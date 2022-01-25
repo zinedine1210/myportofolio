@@ -169,7 +169,7 @@
                     <form action="/pesan" method="POST">
                         @csrf
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="nama" autofocus required autocomplete="off"
+                            <input type="text" class="form-control" id="nama" required autocomplete="off"
                                 placeholder="name@example.com">
                             <label for="nama" class="font-poppins">Nama</label>
                         </div>
