@@ -364,7 +364,241 @@
     </section>
     {{-- akhir skills --}}
 
-    <section id="projects" class="pb-5">
 
+    {{-- my projek --}}
+    <div class="custom-shape-divider-bottom-1643243682">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <section id="myprojects" class="pb-5 bg-main">
+        <div class="row justify-content-center container-fluid mb-4">
+            <div class="col-md-11">
+                <h3 class="fw-bold font-poppins my-5 text-center text-white"><span class="text-main2">My</span>
+                    Projects</h3>
+                <div id="datascience" class="border-rd mb-5">
+                    <h5 class="font-poppins mb-4 fw-bold text-white"><span class="text-main2">Kamp Kreatif SMK
+                            Indonesia </span>- Data Science
+                    </h5>
+                    <p class="text-white font-poppins2">Saya mengikuti kegiatan KKSI pada bidang Data Science pada tahun
+                        2021. Saya dan tim menganalisis data prestasi sekolah, untuk mengetahui kualitas dari sekolah,
+                        dengan adanya analisis ini kami mengharapkan sekolah dapat memberikan perhatian, pembelajaran, serta
+                        fasilitas untuk meningkatkan prestasi dari jurusan tersebut. Saya dan tim juga menyelesaikan
+                        kompetisi Time Series dari Kaggle.com mengenai Sales Forecasting.</p>
+                    <p class="text-white font-poppins2">Saya disini bertugas untuk membuat Insight dengan menggunakan
+                        bahasa pemrograman Python dibantu dengan beberapa library seperti Matplotlib, Pandas, Seaborn.
+                        Berikut Insight dan link Animation Explainer :</p>
+                    <a href="#ytdatascience" data-bs-toggle="modal"
+                        class="btn btn-light font-poppins px-4 py-1 border-rd mb-3">Embed
+                        Youtube</a>
+                    <a href="https://youtu.be/oumyNbu9qlU" target="_blank"
+                        class="btn btn-outline-light font-poppins px-4 py-1 border-rd mb-3">Link Youtube <i
+                            class="fab fa-youtube"></i></a>
+
+                    <div class="modal fade" id="ytdatascience" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="card card-body bg-transparent">
+                                        <iframe width="100%" height="500"
+                                            src="https://www.youtube-nocookie.com/embed/oumyNbu9qlU"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary border-rd"
+                                        data-bs-dismiss="modal">Keluar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/datascience/alasan-siswa-tidak-mengikuti-lomba.jpeg"
+                                    alt="alasan siswa tidak mengikuti lomba">
+                                <figcaption>
+                                    <h6>Insight alasan siswa tidak mengikuti lomba</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/datascience/data-lomba-setiap-jurusan.jpeg"
+                                    alt="data lomba setiap jurusan">
+                                <figcaption>
+                                    <h6>Insight data lomba setiap jurusan</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/datascience/data-prestasi-masing-masing-jurusan.jpeg"
+                                    alt="data prestasi dari masing masing jurusan">
+                                <figcaption>
+                                    <h6>Insight data prestasi dari masing masing jurusan</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/datascience/prestasi-smkn-26-setiap-tahun.jpeg"
+                                    alt="prestasi SMK Negeri 26 Jakarta">
+                                <figcaption>
+                                    <h6>Insight prestasi SMK Negeri 26 Jakarta</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/datascience/data-pendukung.png" alt="data pendukung alasan siswa">
+                                <figcaption>
+                                    <h6>Insight data pendukung alasan siswa</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="smartschool" class="border-rd mb-5">
+                    <h5 class="font-poppins mb-4 fw-bold text-white"><span class="text-main2">Kamp Kreatif SMK
+                            Indonesia </span>- Smartschool / Digital School
+                    </h5>
+                    <p class="text-white font-poppins2">Saya mengikuti kegiatan KKSI pada bidang Smartschool pada tahun
+                        2021. Saya dan tim membangun sebuah aplikasi berbasis Web E-Learning untuk memudahkan proses belajar
+                        mengajar yang bernama <span class="text-main2">SINAU</span>. Aplikasi ini terdapat 3 pintu
+                        utama yaitu <span class="text-main2">Perpustakaan Online</span>, <span
+                            class="text-main2">E-School</span>, dan <span class="text-main2">Pusat
+                            Informasi</span>. Pada aplikasi ini Guru dan Siswa dapat berinteraksi jarak jauh, seperti dapat
+                        Membuat Kelas, Memberikan Absen, Memberikan Tugas, Membuat Pertemuan kepada Siswa Siswinya.
+                    </p>
+                    <p class="text-white font-poppins2">Saya disini bertugas menjadi seorang Fullstack Developer. Saya
+                        mengimplementasikan tampilan grafis yang diberikan oleh UI Designer sekaligus menghubungkannya
+                        dengan Database yang sudah didefinisikan oleh Database Administrator. Saya menggunakan framework
+                        Bootstrap 5 sebagai Front-End dan Laravel 8 sebagai Back-End Berikut gambaran dari
+                        Aplikasi dan Link Demo Aplikasi :</p>
+                    <a href="#ytsmartschool" data-bs-toggle="modal"
+                        class="btn btn-light font-poppins px-4 py-1 border-rd mb-3">Embed
+                        Youtube</a>
+                    <a href="https://youtu.be/HnLDkPxYVeE" target="_blank"
+                        class="btn btn-outline-light font-poppins px-4 py-1 border-rd mb-3">Link Youtube <i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://drive.google.com/drive/folders/1SOyJJQ_DzXD8PdHcMdi2Jk9_KQjKPjKo" target="_blank"
+                        class="btn btn-outline-light font-poppins px-4 py-1 border-rd mb-3">Download
+                        Aplikasi <i class="fas fa-download"></i></a>
+
+                    <div class="modal fade" id="ytsmartschool" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="card card-body bg-transparent">
+                                        <iframe width="100%" height="500"
+                                            src="https://www.youtube-nocookie.com/embed/HnLDkPxYVeE"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary border-rd"
+                                        data-bs-dismiss="modal">Keluar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/smartschool/halaman-daftarbuku.png"
+                                    alt="halaman daftar semua buku">
+                                <figcaption class="c4-layout-top-left">
+                                    <h4>Halaman daftar semua buku</h4>
+                                    <h6>Halaman ini berisi daftar buku buku yang sudah diuploadkan</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/smartschool/halaman-forum.png" alt="halaman utama forum">
+                                <figcaption>
+                                    <h4>Halaman utama forum</h4>
+                                    <h6>Halaman utama forum</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/smartschool/halaman-login.png"
+                                    alt="data prestasi dari masing masing jurusan">
+                                <figcaption>
+                                    <h4></h4>
+                                    <h6>data prestasi dari masing masing jurusan</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/smartschool/halaman-pusatinformasi.png"
+                                    alt="prestasi SMK Negeri 26 Jakarta">
+                                <figcaption>
+                                    <h4></h4>
+                                    <h6>prestasi SMK Negeri 26 Jakarta</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/smartschool/halaman-utama-eschool.png"
+                                    alt="data pendukung alasan siswa">
+                                <figcaption>
+                                    <h4></h4>
+                                    <h6>data pendukung alasan siswa</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/smartschool/halaman-utama-perpustakaan.png"
+                                    alt="data pendukung alasan siswa">
+                                <figcaption>
+                                    <h4></h4>
+                                    <h6>data pendukung alasan siswa</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/smartschool/pintu-eschool.png" alt="data pendukung alasan siswa">
+                                <figcaption>
+                                    <h4></h4>
+                                    <h6>data pendukung alasan siswa</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <figure class="c4-izmir c4-gradient-top-left c4-border-center c4-image-zoom-in">
+                                <img width="50" src="img/smartschool/portal.png" alt="data pendukung alasan siswa">
+                                <figcaption>
+                                    <h4></h4>
+                                    <h6>data pendukung alasan siswa</h6>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <div class="custom-shape-divider-top-1643243888">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+        </svg>
+    </div>
+    {{-- akhir my projek --}}
 @endsection

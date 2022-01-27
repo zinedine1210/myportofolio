@@ -150,3 +150,42 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
+
+.custom-shape-divider-bottom-1643243682 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643243682 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 191px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1643243682 .shape-fill {
+    fill: #166974;
+}
+
+.custom-shape-divider-top-1643243888 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1643243888 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 167px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1643243888 .shape-fill {
+    fill: #166974;
+}
